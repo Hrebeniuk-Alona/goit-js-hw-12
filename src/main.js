@@ -40,7 +40,8 @@ function hendleSubmit(event) {
             maxPages = Math.ceil(data.totalHits / aray.length);
 
             if (aray.length === 0) {
-               errorMessage()
+                errorMessage();
+                hideLoadMoreButton()
                 return;
             }
 
