@@ -1,0 +1,131 @@
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 36px;
+    margin-bottom: 32px;
+    gap: 8px;
+}
+
+.form input {
+    width: 272px;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid #808080;
+    background: #fff;
+    padding-left: 16px;
+}
+
+.form input:hover,
+.form input:focus {
+    border: 1px solid #000000;
+}
+
+.span, .btn {
+    display: none;
+}
+
+.loader {
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+    margin: 0 auto;
+}
+
+.form button, .load-more-btn {
+    border-radius: 8px;
+    padding: 8px 16px;
+    width: 92px;
+    height: 40px;
+    background: #4e75ff;
+    border: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+}
+
+.load-more-btn{
+    display: flex;
+    margin: 0 auto;
+    margin-top: 32px;
+    width: 125px;
+}
+
+.form button:hover,
+.form button:focus, 
+.load-more-btn:hover,
+.load-more-btn:focus {
+    background: #6c8cff;
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
+}
+
+.gallery-item {
+    height: 200px;
+    width: 360px;
+    border: 1px solid #808080;
+
+    overflow: hidden;
+    position: relative;
+}
+
+.gallery-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.statistic-list {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    padding: 4px;
+
+    width: 100%;
+    height: 48px;
+
+    background-color: #ffffff;
+}
+
+
+.statistic-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.statistic-value {
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+}
+
+.statistic-text {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    color: #2e2f42;
+}
+
+
+
+
+
+.iziToast .iziToast-close {
+    color: #ffffff;
+}
+
