@@ -49,9 +49,13 @@ function hendleSubmit(event) {
 
             if (page< maxPages) {
                 showLoadMoreButton();
-            } else {
-                theEnd()
-            }
+            } 
+
+            if (page >= maxPages) {
+            hideLoader()
+            hideLoadMoreButton();
+            theEnd();
+        }
             
         })
         .catch(error=>{
